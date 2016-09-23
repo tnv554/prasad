@@ -1,0 +1,22 @@
+<html ng-app="myModule">
+<head>
+	<script src="scripts\angular.min.js">
+	</script>
+	
+	<script src="scripts\scripts.js">
+	</script>
+	<script src="scripts\myServices.js">
+	</script>
+</head>
+<body>
+<div ng-controller="myController">
+{{message}}
+<input type="text" ng-model="item1"/>
+<input type="text" ng-model="item2"/>
+<button ng-click="fn_Getsum">sum</button>
+{{result}}
+<div>
+</body>
+
+
+</html>

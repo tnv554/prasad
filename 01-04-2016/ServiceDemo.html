@@ -1,0 +1,24 @@
+
+		<script src="scripts\angular.min.js"></script>
+		<script src="scripts\myScripts.js"></script>
+		<script src="scripts\myServices.js"></script>
+	<html ng-app="myApp">
+	 <head>
+	</head>
+	<body>
+	<div ng-controller ="mathController">
+	SERVICES IN ANGULARJS
+	<br><hr>
+	
+	 ENTER FIRST NUMBER:&nbsp; &nbsp;<input type="text" ng-model="item1"><br><br>
+	ENTER SECOND NUMBER:&nbsp;&nbsp;<input type="text" ng-model="item2"><br><br>
+	<button ng-click="fn_Getsum()">SUM</button>
+	<button ng-click="fn_GetMultiply()">MULTIPLY</button><br><br>
+	RESULT:&nbsp;&nbsp{{result}}
+	
+	</div>  
+	</body>
+
+
+
+</html>
